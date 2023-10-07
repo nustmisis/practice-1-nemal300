@@ -8,6 +8,7 @@ BMI = вес/рост**2
 weight = input()
 height = input()
 
+#Ваш код
 
-#Ваш кол
+print("Индекс тела: {}".format(float(weight)/float(height)**2))
 

@@ -6,3 +6,16 @@
 
 @author: Savant
 """
+while True:
+    number = input("Введите четырехзначное число: ")
+
+    if (len(number) == 4):
+        break
+    else:
+        print("Попробуй еще!")
+
+sum_of_digit = 0
+for digit in number:
+    sum_of_digit += int(digit)
+
+print("Сумма цифр числа {}: {}".format(number, sum_of_digit))
